@@ -1,0 +1,114 @@
+\documentclass{beamer}
+%Information to be included in the title page:
+\title{\textit{Reverse Engineering with Ghidra}}
+\author{Joe Rose}
+\institute{GUSEC}
+\date{\today}
+
+\useinnertheme{circles}
+\useoutertheme{infolines}
+\usecolortheme{seagull}
+\usefonttheme{professionalfonts}
+
+\logo{
+	\includegraphics[width=1cm]{GUSEC.jpg}
+}
+
+\begin{document}
+	
+	\frame{\titlepage}
+	
+	\section{Introduction}
+	\begin{frame}
+		\frametitle{Who am I?}
+		\begin{itemize}
+			\item 3rd Year Comp. Sci. Student
+			\item Secretary of GUSEC
+			\item Big nerd
+		\end{itemize}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{What is Ghidra?}
+		Ghidra is a free and open source reverse engineering tool developed by the National Security Agency (NSA). Ghidra's existence was originally revealed to the public via WikiLeaks in March 2017, but the software itself remained unavailable until its declassification and official release two years later. 
+		\newline
+		
+		Ghidra is written in Java using the Swing framework for the GUI. The decompiler component is written in C++, and is therefore usable in a stand-alone form. Ghidra plug-ins can be developed in Java or Python
+		\newline
+		
+		\textbf{Supported Architectures}
+		\begin{itemize}
+			\item Intel x86
+			\item Intel x64
+			\item ARM
+		\end{itemize}
+		
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{What is Reverse Engineering?}
+		Reverse engineering, in the context of software, is the act of taking compiled code (also called a \textit{binary}), converting that into a human-readable language, and figuring out what it does (also possibly modifying it).
+		\newline
+		
+		\textbf{What is it for?}
+		\begin{itemize}
+			\item Static Malware Analysis
+			\item Modifying closed-source code
+			\item Creating closed-source compatible libraries
+		\end{itemize}
+		
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{Why does it suck?}
+		
+		\textbf{No Symbolic Information}\\
+		When we write code in a high-level language, we keep track of our data through variable names, we have no such luxury in reverse engineering. 
+		\newline
+		
+		\textbf{No Type Information}\\
+		Similary, high-level languages operate around the understanding of the well-defined data types and structures. At the binary level, we have to figure out the types ourselves
+		\newline
+		
+		\textbf{Mixed Code and Data}\\
+		Binaries can and do contain data fragments within the executable code
+	\end{frame}
+		
+	\section{x86}
+	
+	\begin{frame}
+		\frametitle{The Registers}
+		
+		Registers are extremely small (32-bit) pieces of memory within your CPU which are quicker than RAM or cache to access. These are what store the pieces of data currently being worked with. The x86 specifies some general purpose registers and some dedicated registers. 
+		\newline
+		
+		\begin{tabular}{|c|l|}
+			\hline
+			\textbf{Register} & \textbf{Purpose} \\
+			\hline
+			\hline
+			EAX & Accumulator\\
+			\hline
+			ECX & Counter in loops\\
+			\hline
+			ESI & Source in string \& memory operations\\
+			\hline
+			EDI & Destination in string \& memory operations\\
+			\hline
+			EBP & Stack base pointer\\
+			\hline
+			ESP & Stack Pointer\\
+			\hline
+		\end{tabular}
+	\end{frame}
+
+	\begin{frame}
+		\frametitle{The Stack}
+		
+		The idea of the stack isn't exclusive to reverse engineering or assembly code, but more used as a framework for understanding low-level memory management in general.
+		\newline
+		
+		Every process running at a given time is carved out a little piece of virtual memory. The 		
+	\end{frame}
+
+\end{document}
