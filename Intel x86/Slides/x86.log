@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.12)  15 DEC 2022 02:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.12)  15 DEC 2022 02:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**"Reverse Engineering with Ghidra.tex"
-(./Reverse Engineering with Ghidra.tex
+**x86.tex
+(./x86.tex
 LaTeX2e <2021-11-15> patch level 1
 L3 programming layer <2022-01-21>
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
@@ -820,7 +820,6 @@ tex
 File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \arrowsize=\dimen297
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerinnerthemecircles.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeseagull.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfont
@@ -828,27 +827,27 @@ s.sty) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count338
 \l__pdf_internal_box=\box100
-) (./Reverse Engineering with Ghidra.aux)
-\openout1 = `"Reverse Engineering with Ghidra.aux"'.
+) (./x86.aux)
+\openout1 = `x86.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -906,7 +905,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 32.
+Package hyperref Info: Link coloring ON on input line 40.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -919,13 +918,13 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count345
 )
-LaTeX Info: Redefining \ref on input line 32.
-LaTeX Info: Redefining \pageref on input line 32.
-LaTeX Info: Redefining \nameref on input line 32.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
 
-(./Reverse Engineering with Ghidra.out) (./Reverse Engineering with Ghidra.out)
+(./x86.out) (./x86.out)
 \@outlinefile=\write5
-\openout5 = `"Reverse Engineering with Ghidra.out"'.
+\openout5 = `x86.out'.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-basic-dictionary
@@ -951,22 +950,36 @@ Dictionary: translator-numbers-dictionary, Language: English
 (/usr/share/texlive/texmf-dist/tex/latex/translator/translator-theorem-dictiona
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
-) (./Reverse Engineering with Ghidra.nav)
-<GUSEC.jpg, id=22, 308.2177pt x 440.16711pt>
+) (./x86.nav)
+<GUSEC.jpg, id=30, 308.2177pt x 440.16711pt>
 File: GUSEC.jpg Graphic file (type jpg)
 <use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 34.
+Package pdftex.def Info: GUSEC.jpg  used on input line 42.
 (pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./GUSEC.jpg>]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 44.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./GUSEC.jpg>] (./x86.toc)
+File: GUSEC.jpg Graphic file (type jpg)
+<use GUSEC.jpg>
+Package pdftex.def Info: GUSEC.jpg  used on input line 46.
+(pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
+ [2
+
+] (./x86.toc)
+File: GUSEC.jpg Graphic file (type jpg)
+<use GUSEC.jpg>
+Package pdftex.def Info: GUSEC.jpg  used on input line 48.
+(pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
+ [3
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -974,69 +987,82 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: GUSEC.jpg Graphic file (type jpg)
 <use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 44.
-(pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
- [2
-
-]
-File: GUSEC.jpg Graphic file (type jpg)
-<use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 61.
-(pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
- [3
-
-]
-File: GUSEC.jpg Graphic file (type jpg)
-<use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 75.
+Package pdftex.def Info: GUSEC.jpg  used on input line 56.
 (pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
  [4
 
-]
+] (./x86.toc)
 File: GUSEC.jpg Graphic file (type jpg)
 <use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 90.
-(pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
- [5
-
-]
-File: GUSEC.jpg Graphic file (type jpg)
-<use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 110.
+Package pdftex.def Info: GUSEC.jpg  used on input line 58.
 (pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
 
-[6
+[5
 
 ]
 File: GUSEC.jpg Graphic file (type jpg)
 <use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 138.
+Package pdftex.def Info: GUSEC.jpg  used on input line 80.
+(pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
+ [6
+
+]
+File: GUSEC.jpg Graphic file (type jpg)
+<use GUSEC.jpg>
+Package pdftex.def Info: GUSEC.jpg  used on input line 101.
 (pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
  [7
 
+] (./x86.toc)
+File: GUSEC.jpg Graphic file (type jpg)
+<use GUSEC.jpg>
+Package pdftex.def Info: GUSEC.jpg  used on input line 103.
+(pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
+ [8
+
+]
+File: GUSEC.jpg Graphic file (type jpg)
+<use GUSEC.jpg>
+Package pdftex.def Info: GUSEC.jpg  used on input line 129.
+(pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
+ [9
+
+] (./x86.toc)
+File: GUSEC.jpg Graphic file (type jpg)
+<use GUSEC.jpg>
+Package pdftex.def Info: GUSEC.jpg  used on input line 133.
+(pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
+ [10
+
+]
+File: GUSEC.jpg Graphic file (type jpg)
+<use GUSEC.jpg>
+Package pdftex.def Info: GUSEC.jpg  used on input line 146.
+(pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
+ [11
+
 ]
 \tf@nav=\write6
-\openout6 = `"Reverse Engineering with Ghidra.nav"'.
+\openout6 = `x86.nav'.
 
 \tf@toc=\write7
-\openout7 = `"Reverse Engineering with Ghidra.toc"'.
+\openout7 = `x86.toc'.
 
 \tf@snm=\write8
-\openout8 = `"Reverse Engineering with Ghidra.snm"'.
+\openout8 = `x86.snm'.
 
- (./Reverse Engineering with Ghidra.aux)
-Package rerunfilecheck Info: File `"Reverse Engineering with Ghidra".out' has n
-ot changed.
-(rerunfilecheck)             Checksum: A019130B967F2BAF018B594267850C3A;161.
+ (./x86.aux)
+Package rerunfilecheck Info: File `x86.out' has not changed.
+(rerunfilecheck)             Checksum: 8B67C5EBEC6F5CF3A6A975F3B1E89739;413.
  ) 
 Here is how much of TeX's memory you used:
- 27127 strings out of 478287
- 566611 string characters out of 5849288
- 838463 words of memory out of 5000000
- 44759 multiletter control sequences out of 15000+600000
+ 27167 strings out of 478287
+ 565999 string characters out of 5849288
+ 837717 words of memory out of 5000000
+ 44782 multiletter control sequences out of 15000+600000
  476779 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,461b,802s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 128i,15n,122p,428b,802s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
@@ -1044,12 +1070,11 @@ ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Reverse Engineering with Ghidra.pdf" (7 pages, 280085 bytes)
-.
+type1/public/amsfonts/symbols/msam10.pfb>
+Output written on x86.pdf (11 pages, 288534 bytes).
 PDF statistics:
- 264 PDF objects out of 1000 (max. 8388607)
- 228 compressed objects within 3 object streams
- 17 named destinations out of 1000 (max. 500000)
- 64 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 407 PDF objects out of 1000 (max. 8388607)
+ 366 compressed objects within 4 object streams
+ 27 named destinations out of 1000 (max. 500000)
+ 80 words of extra memory for PDF output out of 10000 (max. 10000000)
 

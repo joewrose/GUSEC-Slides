@@ -5,6 +5,17 @@
 \institute{GUSEC}
 \date{\today}
 
+\usepackage{hyperref}
+\hypersetup{
+	colorlinks=true,
+	linkcolor=blue,    
+	urlcolor=blue,
+}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\tikzstyle{arrow} = [->,>=stealth]
+
+
 \useinnertheme{circles}
 \useoutertheme{infolines}
 \usecolortheme{seagull}
@@ -13,6 +24,10 @@
 \logo{
 	\includegraphics[width=1cm]{GUSEC.jpg}
 }
+
+\tikzstyle{block} = [rectangle, draw, fill=blue!10, 
+text width=4cm, rounded corners, minimum width=3cm, minimum height=2cm]
+
 
 \begin{document}
 	
@@ -74,6 +89,26 @@
 		Binaries can and do contain data fragments within the executable code
 	\end{frame}
 		
+	\begin{frame}
+		\frametitle{Abstraction}
+		
+		Modern computer systems can be represented as layers of \textit{abstraction}. As software engineers, we generally work in a 'high level' highly abstracted space, which is then converted by our compiler into low level \textit{machine code}. 
+		
+		\begin{center}
+			\begin{tikzpicture}[node distance = 2cm, auto]
+				% Place nodes
+				\node (author) [block,label=north:\textit{High-Level Language}] {int c;\\printf("Hello");\\exit(0);a};
+				\node (cpu) [block, label=north:\textit{Machine Code}, below of=author, yshift=-1cm, xshift=3cm] {55\\8B EC\\8B EC 40};
+				\node (analyst) [block, label=north:\textit{Low-Level Language}, right of=author, xshift=4cm] {push ebp\\mov ebp,esp\\sub esp, 0x40};
+				
+				% Draw arrows
+				\draw [arrow] (author) |- node[anchor=east] {Compiler} (cpu);
+				\draw [arrow] (cpu) -| node[anchor=west] {Disassembler} (analyst);
+				
+			\end{tikzpicture}
+		\end{center}
+	\end{frame}
+		
 	\section{x86}
 	
 	\begin{frame}
@@ -100,15 +135,6 @@
 			ESP & Stack Pointer\\
 			\hline
 		\end{tabular}
-	\end{frame}
-
-	\begin{frame}
-		\frametitle{The Stack}
-		
-		The idea of the stack isn't exclusive to reverse engineering or assembly code, but more used as a framework for understanding low-level memory management in general.
-		\newline
-		
-		Every process running at a given time is carved out a little piece of virtual memory. The 		
 	\end{frame}
 
 \end{document}
