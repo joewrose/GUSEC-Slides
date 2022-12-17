@@ -16,24 +16,36 @@
 \headcommand {\beamer@framepages {5}{5}}
 \headcommand {\slideentry {2}{0}{2}{6/6}{}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\slideentry {2}{0}{3}{7/7}{}{0}}
+\headcommand {\beamer@subsectionpages {5}{6}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{7}{Memory}}
+\headcommand {\slideentry {2}{1}{1}{7/7}{Memory}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\beamer@sectionpages {5}{7}}
-\headcommand {\beamer@subsectionpages {5}{7}}
-\headcommand {\sectionentry {3}{x86}{8}{x86}{0}}
-\headcommand {\slideentry {3}{0}{1}{8/8}{}{0}}
+\headcommand {\slideentry {2}{1}{2}{8/8}{Memory}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\slideentry {3}{0}{2}{9/9}{}{0}}
+\headcommand {\beamer@subsectionpages {7}{8}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{9}{Registers and Flags}}
+\headcommand {\slideentry {2}{2}{1}{9/9}{Registers and Flags}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\beamer@sectionpages {8}{9}}
-\headcommand {\beamer@subsectionpages {8}{9}}
-\headcommand {\sectionentry {4}{Finishing Off}{10}{Finishing Off}{0}}
-\headcommand {\slideentry {4}{0}{1}{10/10}{}{0}}
+\headcommand {\slideentry {2}{2}{2}{10/10}{Registers and Flags}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {4}{0}{2}{11/11}{}{0}}
+\headcommand {\beamer@sectionpages {5}{10}}
+\headcommand {\beamer@subsectionpages {9}{10}}
+\headcommand {\sectionentry {3}{Syntax}{11}{Syntax}{0}}
+\headcommand {\slideentry {3}{0}{1}{11/11}{}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\beamer@partpages {1}{11}}
-\headcommand {\beamer@subsectionpages {10}{11}}
-\headcommand {\beamer@sectionpages {10}{11}}
-\headcommand {\beamer@documentpages {11}}
-\headcommand {\gdef \inserttotalframenumber {11}}
+\headcommand {\slideentry {3}{0}{2}{12/12}{}{0}}
+\headcommand {\beamer@framepages {12}{12}}
+\headcommand {\slideentry {3}{0}{3}{13/13}{}{0}}
+\headcommand {\beamer@framepages {13}{13}}
+\headcommand {\beamer@sectionpages {11}{13}}
+\headcommand {\beamer@subsectionpages {11}{13}}
+\headcommand {\sectionentry {4}{Finishing Off}{14}{Finishing Off}{0}}
+\headcommand {\slideentry {4}{0}{1}{14/14}{}{0}}
+\headcommand {\beamer@framepages {14}{14}}
+\headcommand {\slideentry {4}{0}{2}{15/15}{}{0}}
+\headcommand {\beamer@framepages {15}{15}}
+\headcommand {\beamer@partpages {1}{15}}
+\headcommand {\beamer@subsectionpages {14}{15}}
+\headcommand {\beamer@sectionpages {14}{15}}
+\headcommand {\beamer@documentpages {15}}
+\headcommand {\gdef \inserttotalframenumber {15}}

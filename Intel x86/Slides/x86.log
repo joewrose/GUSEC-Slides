@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.12)  15 DEC 2022 02:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2022.12.12)  17 DEC 2022 16:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -670,7 +670,76 @@ Package: amsthm 2020/05/29 v2.20.6
 \beamer@dimb=\dimen283
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
-Package hyperref Info: Option `colorlinks' set `true' on input line 13.
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/10/28 v1.9b multicolumn formatting (FMi)
+\c@tracingmulticols=\count329
+\mult@box=\box75
+\multicol@leftmargin=\dimen284
+\c@unbalance=\count330
+\c@collectmore=\count331
+\doublecol@number=\count332
+\multicoltolerance=\count333
+\multicolpretolerance=\count334
+\full@width=\dimen285
+\page@free=\dimen286
+\premulticols=\dimen287
+\postmulticols=\dimen288
+\multicolsep=\skip64
+\multicolbaselineskip=\skip65
+\partial@page=\box76
+\last@line=\box77
+\maxbalancingoverflow=\dimen289
+\mult@rightbox=\box78
+\mult@grightbox=\box79
+\mult@firstbox=\box80
+\mult@gfirstbox=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\c@minrows=\count335
+\c@columnbadness=\count336
+\c@finalcolumnbadness=\count337
+\last@try=\dimen290
+\multicolovershoot=\dimen291
+\multicolundershoot=\dimen292
+\mult@nat@firstbox=\box118
+\colbreak@box=\box119
+\mc@col@check@num=\count338
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 9.
 
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
@@ -678,15 +747,15 @@ Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodeparttextbox=\box75
+\pgfnodeparttextbox=\box120
 ) (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
 .sty
 Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@nodesepstart=\dimen284
-\pgf@nodesepend=\dimen285
+\pgf@nodesepstart=\dimen293
+\pgf@nodesepend=\dimen294
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
 .sty
@@ -700,8 +769,8 @@ Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen286
-\pgffor@skip=\dimen287
+\pgffor@iter=\dimen295
+\pgffor@skip=\dimen296
 \pgffor@stack=\toks45
 \pgffor@toks=\toks46
 ))
@@ -711,33 +780,33 @@ Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
 .code.tex
 File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgf@plot@mark@count=\count329
-\pgfplotmarksize=\dimen288
+\pgf@plot@mark@count=\count339
+\pgfplotmarksize=\dimen297
 )
-\tikz@lastx=\dimen289
-\tikz@lasty=\dimen290
-\tikz@lastxsaved=\dimen291
-\tikz@lastysaved=\dimen292
-\tikz@lastmovetox=\dimen293
-\tikz@lastmovetoy=\dimen294
-\tikzleveldistance=\dimen295
-\tikzsiblingdistance=\dimen296
-\tikz@figbox=\box76
-\tikz@figbox@bg=\box77
-\tikz@tempbox=\box78
-\tikz@tempbox@bg=\box79
-\tikztreelevel=\count330
-\tikznumberofchildren=\count331
-\tikznumberofcurrentchild=\count332
-\tikz@fig@count=\count333
+\tikz@lastx=\dimen298
+\tikz@lasty=\dimen299
+\tikz@lastxsaved=\dimen300
+\tikz@lastysaved=\dimen301
+\tikz@lastmovetox=\dimen302
+\tikz@lastmovetoy=\dimen303
+\tikzleveldistance=\dimen304
+\tikzsiblingdistance=\dimen305
+\tikz@figbox=\box121
+\tikz@figbox@bg=\box122
+\tikz@tempbox=\box123
+\tikz@tempbox@bg=\box124
+\tikztreelevel=\count340
+\tikznumberofchildren=\count341
+\tikznumberofcurrentchild=\count342
+\tikz@fig@count=\count343
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
 File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfmatrixcurrentrow=\count334
-\pgfmatrixcurrentcolumn=\count335
-\pgf@matrix@numberofcolumns=\count336
+\pgfmatrixcurrentrow=\count344
+\pgfmatrixcurrentcolumn=\count345
+\pgf@matrix@numberofcolumns=\count346
 )
-\tikz@expandcount=\count337
+\tikz@expandcount=\count347
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarytopaths.code.tex
@@ -790,26 +859,26 @@ File: tikzlibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshape
 s.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\pgfnodepartlowerbox=\box80
-\pgfnodeparttwobox=\box81
-\pgfnodepartthreebox=\box82
-\pgfnodepartfourbox=\box83
-\pgfnodeparttwentybox=\box84
-\pgfnodepartnineteenbox=\box85
-\pgfnodeparteighteenbox=\box86
-\pgfnodepartseventeenbox=\box87
-\pgfnodepartsixteenbox=\box88
-\pgfnodepartfifteenbox=\box89
-\pgfnodepartfourteenbox=\box90
-\pgfnodepartthirteenbox=\box91
-\pgfnodeparttwelvebox=\box92
-\pgfnodepartelevenbox=\box93
-\pgfnodeparttenbox=\box94
-\pgfnodepartninebox=\box95
-\pgfnodeparteightbox=\box96
-\pgfnodepartsevenbox=\box97
-\pgfnodepartsixbox=\box98
-\pgfnodepartfivebox=\box99
+\pgfnodepartlowerbox=\box125
+\pgfnodeparttwobox=\box126
+\pgfnodepartthreebox=\box127
+\pgfnodepartfourbox=\box128
+\pgfnodeparttwentybox=\box129
+\pgfnodepartnineteenbox=\box130
+\pgfnodeparteighteenbox=\box131
+\pgfnodepartseventeenbox=\box132
+\pgfnodepartsixteenbox=\box133
+\pgfnodepartfifteenbox=\box134
+\pgfnodepartfourteenbox=\box135
+\pgfnodepartthirteenbox=\box136
+\pgfnodeparttwelvebox=\box137
+\pgfnodepartelevenbox=\box138
+\pgfnodeparttenbox=\box139
+\pgfnodepartninebox=\box140
+\pgfnodeparteightbox=\box141
+\pgfnodepartsevenbox=\box142
+\pgfnodepartsixbox=\box143
+\pgfnodepartfivebox=\box144
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryarrows.code.tex
@@ -818,36 +887,36 @@ File: tikzlibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.
 tex
 File: pgflibraryarrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
-\arrowsize=\dimen297
+\arrowsize=\dimen306
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerouterthemeinfolines.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamercolorthemeseagull.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamerfontthemeprofessionalfont
 s.sty) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count338
-\l__pdf_internal_box=\box100
+\l__color_backend_stack_int=\count348
+\l__pdf_internal_box=\box145
 ) (./x86.aux)
 \openout1 = `x86.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
-LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 42.
+LaTeX Font Info:    ... okay on input line 42.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -885,16 +954,16 @@ LaTeX Font Info:    ... okay on input line 40.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count339
-\scratchdimen=\dimen298
-\scratchbox=\box101
-\nofMPsegments=\count340
-\nofMParguments=\count341
+\scratchcounter=\count349
+\scratchdimen=\dimen307
+\scratchbox=\box146
+\nofMPsegments=\count350
+\nofMParguments=\count351
 \everyMPshowfont=\toks47
-\MPscratchCnt=\count342
-\MPscratchDim=\dimen299
-\MPnumerator=\count343
-\makeMPintoPDFobject=\count344
+\MPscratchCnt=\count352
+\MPscratchDim=\dimen308
+\MPnumerator=\count353
+\makeMPintoPDFobject=\count354
 \everyMPtoPDFconversion=\toks48
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -905,7 +974,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 40.
+Package hyperref Info: Link coloring ON on input line 42.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -916,11 +985,11 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count345
+\c@section@level=\count355
 )
-LaTeX Info: Redefining \ref on input line 40.
-LaTeX Info: Redefining \pageref on input line 40.
-LaTeX Info: Redefining \nameref on input line 40.
+LaTeX Info: Redefining \ref on input line 42.
+LaTeX Info: Redefining \pageref on input line 42.
+LaTeX Info: Redefining \nameref on input line 42.
 
 (./x86.out) (./x86.out)
 \@outlinefile=\write5
@@ -951,35 +1020,35 @@ Dictionary: translator-numbers-dictionary, Language: English
 ry-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 ) (./x86.nav)
-<GUSEC.jpg, id=30, 308.2177pt x 440.16711pt>
+<GUSEC.jpg, id=38, 308.2177pt x 440.16711pt>
 File: GUSEC.jpg Graphic file (type jpg)
 <use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 42.
+Package pdftex.def Info: GUSEC.jpg  used on input line 44.
 (pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./GUSEC.jpg>] (./x86.toc)
 File: GUSEC.jpg Graphic file (type jpg)
 <use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 46.
+Package pdftex.def Info: GUSEC.jpg  used on input line 48.
 (pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
  [2
 
 ] (./x86.toc)
 File: GUSEC.jpg Graphic file (type jpg)
 <use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 48.
+Package pdftex.def Info: GUSEC.jpg  used on input line 50.
 (pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
  [3
 
 ]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 58.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 58.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -987,14 +1056,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: GUSEC.jpg Graphic file (type jpg)
 <use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 56.
+Package pdftex.def Info: GUSEC.jpg  used on input line 58.
 (pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
  [4
 
 ] (./x86.toc)
 File: GUSEC.jpg Graphic file (type jpg)
 <use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 58.
+Package pdftex.def Info: GUSEC.jpg  used on input line 60.
 (pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
 
 [5
@@ -1002,44 +1071,72 @@ Package pdftex.def Info: GUSEC.jpg  used on input line 58.
 ]
 File: GUSEC.jpg Graphic file (type jpg)
 <use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 80.
+Package pdftex.def Info: GUSEC.jpg  used on input line 82.
 (pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
  [6
 
 ]
 File: GUSEC.jpg Graphic file (type jpg)
 <use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 101.
+Package pdftex.def Info: GUSEC.jpg  used on input line 93.
 (pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
  [7
 
-] (./x86.toc)
+]
 File: GUSEC.jpg Graphic file (type jpg)
 <use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 103.
+Package pdftex.def Info: GUSEC.jpg  used on input line 111.
 (pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
  [8
 
 ]
 File: GUSEC.jpg Graphic file (type jpg)
 <use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 129.
+Package pdftex.def Info: GUSEC.jpg  used on input line 141.
 (pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
  [9
-
-] (./x86.toc)
-File: GUSEC.jpg Graphic file (type jpg)
-<use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 133.
-(pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
- [10
 
 ]
 File: GUSEC.jpg Graphic file (type jpg)
 <use GUSEC.jpg>
-Package pdftex.def Info: GUSEC.jpg  used on input line 146.
+Package pdftex.def Info: GUSEC.jpg  used on input line 166.
+(pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
+ [10
+
+] (./x86.toc)
+File: GUSEC.jpg Graphic file (type jpg)
+<use GUSEC.jpg>
+Package pdftex.def Info: GUSEC.jpg  used on input line 168.
 (pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
  [11
+
+]
+File: GUSEC.jpg Graphic file (type jpg)
+<use GUSEC.jpg>
+Package pdftex.def Info: GUSEC.jpg  used on input line 191.
+(pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
+ [12
+
+]
+File: GUSEC.jpg Graphic file (type jpg)
+<use GUSEC.jpg>
+Package pdftex.def Info: GUSEC.jpg  used on input line 216.
+(pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
+ [13
+
+] (./x86.toc)
+File: GUSEC.jpg Graphic file (type jpg)
+<use GUSEC.jpg>
+Package pdftex.def Info: GUSEC.jpg  used on input line 218.
+(pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
+ [14
+
+]
+File: GUSEC.jpg Graphic file (type jpg)
+<use GUSEC.jpg>
+Package pdftex.def Info: GUSEC.jpg  used on input line 232.
+(pdftex.def)             Requested size: 28.45274pt x 40.6275pt.
+ [15
 
 ]
 \tf@nav=\write6
@@ -1051,30 +1148,33 @@ Package pdftex.def Info: GUSEC.jpg  used on input line 146.
 \tf@snm=\write8
 \openout8 = `x86.snm'.
 
- (./x86.aux)
+
+(./x86.aux)
 Package rerunfilecheck Info: File `x86.out' has not changed.
-(rerunfilecheck)             Checksum: 8B67C5EBEC6F5CF3A6A975F3B1E89739;413.
+(rerunfilecheck)             Checksum: 6C2D57E3661520DB8B99BFD66E6A67D7;673.
  ) 
 Here is how much of TeX's memory you used:
- 27167 strings out of 478287
- 565999 string characters out of 5849288
- 837717 words of memory out of 5000000
- 44782 multiletter control sequences out of 15000+600000
+ 27360 strings out of 478287
+ 569541 string characters out of 5849288
+ 842704 words of memory out of 5000000
+ 44962 multiletter control sequences out of 15000+600000
  476779 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,15n,122p,428b,802s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/symbols/msam10.pfb>
-Output written on x86.pdf (11 pages, 288534 bytes).
+ 128i,15n,122p,487b,802s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmssi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/symbols/msam10.pfb>
+Output written on x86.pdf (15 pages, 320891 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
- 366 compressed objects within 4 object streams
- 27 named destinations out of 1000 (max. 500000)
- 80 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 555 PDF objects out of 1000 (max. 8388607)
+ 504 compressed objects within 6 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
