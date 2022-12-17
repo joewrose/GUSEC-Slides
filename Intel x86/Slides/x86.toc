@@ -1,6 +1,0 @@
-\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
-\beamer@sectionintoc {2}{System Architecture}{5}{0}{2}
-\beamer@subsectionintoc {2}{1}{Memory}{7}{0}{2}
-\beamer@subsectionintoc {2}{2}{Registers and Flags}{9}{0}{2}
-\beamer@sectionintoc {3}{Syntax}{11}{0}{3}
-\beamer@sectionintoc {4}{Finishing Off}{14}{0}{4}
